@@ -91,7 +91,7 @@ The integrated pipeline successfully detected bananas and classified ripeness in
 1. Clone this repository or download the project files. 
 2. Open Google Colab notebook which contains the merged pipeline 'banana_detector_classificator.ipynb'.
 3. Install the required libraries.
-4. Upload the classifier model file 'banana-ripeness-classificator.ipynb' and a banana test image 'banana_test.jpg'.
+4. Upload the classifier model file 'banana-ripeness-classificator.ipynb' and a banana test image 'banana_test.webp'.
 
 ## Option A: Use the Included Trained YOLO Model
 5. Uisng the 'best.pt' file, upload it to Colab when prompted or place it in the expected working path.
