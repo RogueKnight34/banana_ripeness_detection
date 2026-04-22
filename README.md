@@ -104,16 +104,19 @@ The integrated pipeline successfully detected bananas and classified ripeness in
 7. Go to **Version**.
 8. Select **Dowload Dataset** or **Export**
 9. Choose **YOLOv11 Fast** format.
-10. Select **
-11. Select **Show download code**
-12. Paste that code into the provided Colab notebook 'banana_detector_classificator.ipynb'. 
-13. Run the Roboflow dataset download cell.
-14. Run the YOLO training cell to generate wa new 'best.pt' file in Colab.
-15. Load both models.
-16. Run the final test cell to generate the detection and ripeness classification output. 
+10. Select **Show download code**
+11. Paste that code into the provided Colab notebook 'banana_detector_classificator.ipynb'. 
+12. Run the Roboflow dataset download cell.
+13. Run the YOLO training cell to generate wa new 'best.pt' file in Colab.
+14. Load both models.
+15. Run the final test cell to generate the detection and ripeness classification output. 
 
-
-
+### Dataset Split Note
+The Roboflow object detection dataset used in this project follows this split:
+- Train set: 80%
+- Valid set: 10%
+- Test set: 10%
+Keep this split as provided when exporting the dataset for YOLOv11 training.
 
 
 
